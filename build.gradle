@@ -6,3 +6,7 @@ apply plugin: 'findbugs'
 repositories {
     mavenCentral()
 }
+
+findbugs {
+    ignoreFailures = true
+}
